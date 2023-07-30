@@ -1,0 +1,35 @@
+{
+  "name": "@angular-tailwind-nx/lib3",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^13.1.0",
+    "@angular/core": "^13.1.0",
+    "@nrwl/angular": "13.8.7"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "module": "fesm2015/angular-tailwind-nx-lib3.mjs",
+  "es2020": "fesm2020/angular-tailwind-nx-lib3.mjs",
+  "esm2020": "esm2020/angular-tailwind-nx-lib3.mjs",
+  "fesm2020": "fesm2020/angular-tailwind-nx-lib3.mjs",
+  "fesm2015": "fesm2015/angular-tailwind-nx-lib3.mjs",
+  "typings": "angular-tailwind-nx-lib3.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./angular-tailwind-nx-lib3.d.ts",
+      "esm2020": "./esm2020/angular-tailwind-nx-lib3.mjs",
+      "es2020": "./fesm2020/angular-tailwind-nx-lib3.mjs",
+      "es2015": "./fesm2015/angular-tailwind-nx-lib3.mjs",
+      "node": "./fesm2015/angular-tailwind-nx-lib3.mjs",
+      "default": "./fesm2020/angular-tailwind-nx-lib3.mjs"
+    }
+  },
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy in full compilation mode. This is not allowed.\\nPlease delete and rebuild the package with Ivy partial compilation mode, before attempting to publish.\\n')\" && exit 1"
+  }
+}

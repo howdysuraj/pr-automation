@@ -1,0 +1,18 @@
+{
+  "name": "@angular-tailwind-nx/lib2",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^13.1.0",
+    "@angular/core": "^13.1.0",
+    "@angular-tailwind-nx/lib3": "0.0.1",
+    "@nrwl/angular": "13.8.7"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "module": "esm2020/angular-tailwind-nx-lib2.mjs",
+  "es2020": "esm2020/angular-tailwind-nx-lib2.mjs",
+  "esm2020": "esm2020/angular-tailwind-nx-lib2.mjs",
+  "typings": "angular-tailwind-nx-lib2.d.ts",
+  "sideEffects": false
+}
